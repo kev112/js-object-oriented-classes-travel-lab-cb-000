@@ -27,7 +27,9 @@ class Route {
   blocksTravelled() {
     const horizontal = this.avenueToInt(this.endingLocation.horizontal) - this.avenueToInt(this.beginningLocation.horizontal);
     const vertical = parseInt(this.endingLocation.vertical) - parseInt(this.beginningLocation.vertical);
-    return ((horizontal >= 0) ? horizontal : horizontal - 2 * horizontal) + ((vertical >= 0) ? vertical : vertical - 2 * vertical);
+    const horizontalAbs = ((horizontal >= 0) ? horizontal : horizontal - 2 * horizontal);
+    const verticalAbs = ((vertical >= 0) ? vertical : vertical - 2 * vertical);
+    return  + 
   }
 
   estimatedTime() {
