@@ -20,6 +20,10 @@ class Route {
     this.endingLocation = endingLocation;
   }
 
+  avenueToInt(ave) {
+    return eastWest.indexof(ave)
+  }
+
   blocksTravelled() {
     const horizontal = parseInt(this.endingLocation.horizontal) - parseInt(this.beginningLocation.horizontal);
     const vertical = parseInt(this.endingLocation.vertical) - parseInt(this.beginningLocation.vertical);
