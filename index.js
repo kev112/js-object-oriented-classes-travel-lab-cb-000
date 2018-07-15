@@ -34,9 +34,9 @@ class Route {
 
   estimatedTime(peak=false) {
     if (peak = true) {
-      
+      return Route.blocksTravelled()
     } else {
-      
+
     }
   }
 }
