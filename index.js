@@ -21,7 +21,7 @@ class Route {
   }
 
   avenueToInt(ave) {
-    return eastWest.indexof(ave)
+    return eastWest.indexOf(ave)
   }
 
   blocksTravelled() {
