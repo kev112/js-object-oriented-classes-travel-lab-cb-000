@@ -23,5 +23,7 @@ class Route {
     vertical = this.endingLocation.vertical - this.beginningLocation.vertical
     return horizontal + vertical
   }
-  
+  estimatedTime() {
+    
+  }
 }
