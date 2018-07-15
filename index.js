@@ -29,7 +29,7 @@ class Route {
     const vertical = parseInt(this.endingLocation.vertical) - parseInt(this.beginningLocation.vertical);
     const horizontalAbs = ((horizontal >= 0) ? horizontal : horizontal - 2 * horizontal);
     const verticalAbs = ((vertical >= 0) ? vertical : vertical - 2 * vertical);
-    return  + 
+    return horizontalAbs + verticalAbs;
   }
 
   estimatedTime() {
