@@ -32,7 +32,7 @@ class Route {
     return horizontalAbs + verticalAbs;
   }
 
-  estimatedTime(peak) {
+  estimatedTime(peak=false) {
     if (peak=true) {
       return this.blocksTravelled() / 2
     } else if (!peak) {
