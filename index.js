@@ -32,7 +32,7 @@ class Route {
     return horizontalAbs + verticalAbs;
   }
 
-  estimatedTime() {
-    
+  estimatedTime(peak=false) {
+
   }
 }
