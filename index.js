@@ -33,7 +33,7 @@ class Route {
   }
 
   estimatedTime(peak) {
-    if (peak) {
+    if (peak=true) {
       return this.blocksTravelled()/2
     } else if (!peak) {
       return this.blocksTravelled() / 3
