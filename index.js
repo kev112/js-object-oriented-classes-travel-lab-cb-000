@@ -34,9 +34,9 @@ class Route {
 
   estimatedTime(peak=false) {
     if (peak = true) {
-      return Route.blocksTravelled() / 2
+      return this.blocksTravelled() / 2
     } else {
-      return Route.blocksTravelled() / 3
+      return this.blocksTravelled() / 3
     }
   }
 }
