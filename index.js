@@ -19,11 +19,11 @@ class Route {
   }
 
   blocksTravelled() {
-    horizontal = this.endingLocation.horizontal - this.beginningLocation.horizontal
-    vertical = this.endingLocation.vertical - this.beginningLocation.vertical
+    const horizontal = this.endingLocation.horizontal - this.beginningLocation.horizontal
+    const vertical = this.endingLocation.vertical - this.beginningLocation.vertical
     return horizontal + vertical
   }
   estimatedTime() {
-    
+
   }
 }
